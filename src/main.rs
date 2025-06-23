@@ -11,7 +11,7 @@ use shredlink_proto::shredlink::shredlink_service_client::ShredlinkServiceClient
 async fn main() -> Result<()> {
     
     // Replace with your actual Shredlink URL
-    let shredlink_url = "http://localhost:50051".to_string(); // Ask url in ticket https://discord.gg/sskBrcfX
+    let shredlink_url = "http://localhost:50051".to_string(); // Ask url in ticket https://discord.gg/TR2pxMTz
     let mut client = ShredlinkServiceClient::connect(shredlink_url).await.unwrap();
 
     // TRANSACTIONS SUBSCRIBE EXAMPLE
